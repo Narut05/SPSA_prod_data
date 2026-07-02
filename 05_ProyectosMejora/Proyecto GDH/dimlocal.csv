@@ -1,0 +1,135 @@
+Cluster	Cluster Comercial	Cluster NSE	Cluster NSE Comercial	Codigo Local	Departamento	Director	Distrito	Estado	Formato Agrupado	formato	local	Local	Local 3A	tienda2	Provincia	Supervisor	Ubicacion
+				M-381				A	01 PLAZA VEA	PLAZA VEA	M-381 - Qoyllur - PVH	M-381 - Qoyllur - PVH	NO	Qoyllur - PVH			
+				M-384				A	01 PLAZA VEA	PLAZA VEA	M-384 - 	M-384 - 	NO				
+				P286	Lima	Sergio Agnello		A	01 PLAZA VEA	PLAZA VEA	P286 - PVEA Sucre Antiguo	P286 - PVEA Sucre Antiguo	NO	PVEA Sucre Antiguo			Lima + Callao
+				X000		'-		A	01 PLAZA VEA	PLAZA VEA	X000 - no_usar1	X000 - no_usar1	NO	no_usar1			Lima + Callao
+			E	P782	Lima	Sergio Agnello	San Borja	A	01 PLAZA VEA	PLAZA VEA	P782 - DARK STORE VES	P782 - DARK STORE VES	NO	DARK STORE VES			Lima + Callao
+		E	E	2899	Lima	Sergio Agnello	Punta Negra	A	01 PLAZA VEA	PLAZA VEA	2899 - Pv Ecomerce  Merma	2899 - Pv Ecomerce  Merma	NO	Pv Ecomerce  Merma	Lima		Lima + Callao
+	BC2		BC	M-475				A	01 PLAZA VEA	PLAZA VEA	M-475 - Aventura SJL - PVH	M-475 - Aventura SJL - PVH	NO	Aventura SJL - PVH			Lima + Callao
+A1	BC1	A	BC	P110	Lima	VERONICA VALDEZ	San Borja	A	01 PLAZA VEA	PLAZA VEA SUPER	P110 - Corpac - PVS	P110 - Corpac - PVS	NO	Corpac - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+A1	K	A	K	P199	Lima	VERONICA VALDEZ	Lurin	A	01 PLAZA VEA	PLAZA VEA SUPER	P199 - Grifo Kio - PVS	P199 - Grifo Kio - PVS	NO	Grifo Kio - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+A2	A2	A	A	P106	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA	P106 - Valle Hermoso - PVH	P106 - Valle Hermoso - PVH	NO	Valle Hermoso - PVH	Lima	DANIEL RODRIGUEZ	Lima + Callao
+A2	A2	A	A	P109	Lima	VERONICA VALDEZ	San Isidro	A	01 PLAZA VEA	PLAZA VEA SUPER	P109 - Dasso - PVS	P109 - Dasso - PVS	NO	Dasso - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+A2	A3	A	A	P010	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA SUPER	P010 - Caminos del Inca - PVS	P010 - Caminos del Inca - PVS	NO	Caminos del Inca - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+A2	A3	A	A	P061	Lima	VERONICA VALDEZ	Barranco	A	01 PLAZA VEA	PLAZA VEA	P061 - Cortijo - PVH	P061 - Cortijo - PVH	NO	Cortijo - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A2	BC2	A	BC	1199	Lima	VERONICA VALDEZ	San Miguel	A	01 PLAZA VEA	PLAZA VEA	1199 - San Miguel - PVH	1199 - San Miguel - PVH	NO	San Miguel - PVH	Lima	VIK ENCISO	Lima + Callao
+A2	BC2	A	BC	P132	Arequipa	VERONICA VALDEZ	Cayma	A	01 PLAZA VEA	PLAZA VEA SUPER	P132 - El Ejercito - PVS	P132 - El Ejercito - PVS	NO	El Ejercito - PVS	Arequipa	DANIEL RODRIGUEZ	Provincia
+A2	BC2	A	BC	P139	Lima	VERONICA VALDEZ	Chorrillos	A	01 PLAZA VEA	PLAZA VEA SUPER	P139 - Alameda Sur - PVS	P139 - Alameda Sur - PVS	NO	Alameda Sur - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+A3	A3	A	A	P064	Lima	VERONICA VALDEZ	Miraflores	A	01 PLAZA VEA	PLAZA VEA	P064 - Miraflores - PVH	P064 - Miraflores - PVH	NO	Miraflores - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A3	A3	A	A	P081	Lima	VERONICA VALDEZ	La Molina	A	01 PLAZA VEA	PLAZA VEA	P081 - La Molina - PVH	P081 - La Molina - PVH	NO	La Molina - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A3	A3	A	A	P195	Lima	VERONICA VALDEZ	San Borja	A	01 PLAZA VEA	PLAZA VEA	P195 - San Borja - PVH	P195 - San Borja - PVH	NO	San Borja - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A3	A3	A	A	P227	Lima	VERONICA VALDEZ	San Isidro	A	01 PLAZA VEA	PLAZA VEA	P227 - San Isidro - PVH	P227 - San Isidro - PVH	NO	San Isidro - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A3	BC3	A	BC	P037	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA	P037 - Jockey Plaza - PVH	P037 - Jockey Plaza - PVH	NO	Jockey Plaza - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A3	BC3	A	BC	P048	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA	P048 - Higuereta - PVH	P048 - Higuereta - PVH	NO	Higuereta - PVH	Lima	JOHANNA VILCA	Lima + Callao
+A3	BC3	A	BC	P075	La Libertad	VERONICA VALDEZ	Trujillo	A	01 PLAZA VEA	PLAZA VEA	P075 - Trujillo - PVH	P075 - Trujillo - PVH	NO	Trujillo - PVH	Trujillo	MELANY ALVARADO	Provincia
+A3	BC3	A	BC	P145	Piura	VERONICA VALDEZ	Piura	A	01 PLAZA VEA	PLAZA VEA	P145 - Piura - PVH	P145 - Piura - PVH	NO	Piura - PVH	Piura	MELANY ALVARADO	Provincia
+A3	BC3	A	BC	P223	Cusco	VERONICA VALDEZ	Cusco	A	01 PLAZA VEA	PLAZA VEA	P223 - Cusco Mall - PVH	P223 - Cusco Mall - PVH	NO	Cusco Mall - PVH	Cusco	JOE HUAMANCONDOR	Provincia
+A3	BC3	A	BC	P229	Lima	VERONICA VALDEZ	Jesus Maria	A	01 PLAZA VEA	PLAZA VEA	P229 - Salaverry - PVH	P229 - Salaverry - PVH	NO	Salaverry - PVH	Lima	JOHANNA VILCA	Lima + Callao
+B1		B	B	P111	Lima	'-	San Miguel	A	01 PLAZA VEA	PLAZA VEA SUPER	P111 - SVEA San Miguel	P111 - SVEA San Miguel	NO	SVEA San Miguel			Lima + Callao
+B1	BC1	B	BC	P178	Piura	Sergio Agnello	Piura	A	01 PLAZA VEA	PLAZA VEA SUPER	P178 - Multiplaza - PVS	P178 - Multiplaza - PVS	NO	Multiplaza - PVS	Piura	MELANY ALVARADO	Provincia
+B1	BC1	B	BC	P193	La Libertad	VERONICA VALDEZ	Trujillo	A	01 PLAZA VEA	PLAZA VEA SUPER	P193 - Trujillo Mansiche - PVS	P193 - Trujillo Mansiche - PVS	NO	Trujillo Mansiche - PVS	Trujillo	Fátima León	Provincia
+B1	BC2	B	BC	2638	Ayacucho	VERONICA VALDEZ	San Juan Bautista	A	01 PLAZA VEA	PLAZA VEA	2638 - SJB Ayacucho - PVH	2638 - SJB Ayacucho - PVH	NO	SJB Ayacucho - PVH	Huamanga	PEPE ARAMBURU	Provincia
+B1	BC2	B	BC	P105	Lima	VERONICA VALDEZ	Ate	A	01 PLAZA VEA	PLAZA VEA SUPER	P105 - Salamanca - PVS	P105 - Salamanca - PVS	NO	Salamanca - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+B1	BC2	B	BC	P107	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA SUPER	P107 - Mercaderes - PVS	P107 - Mercaderes - PVS	NO	Mercaderes - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+B1	BC2	B	BC	P108	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA SUPER	P108 - Ayacucho - PVS	P108 - Ayacucho - PVS	NO	Ayacucho - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+B1	BC2	B	BC	P156	Junin	VERONICA VALDEZ	Huancayo	A	01 PLAZA VEA	PLAZA VEA SUPER	P156 - El Tambo Huancayo - PVS	P156 - El Tambo Huancayo - PVS	NO	El Tambo Huancayo - PVS	Huancayo	DANIEL RODRIGUEZ	Provincia
+B1	FP	B	FP	P220	La Libertad	VERONICA VALDEZ	Trujillo	A	01 PLAZA VEA	PLAZA VEA SUPER	P220 - Trujillo Valcarcel - PVS	P220 - Trujillo Valcarcel - PVS	NO	Trujillo Valcarcel - PVS	Trujillo	Fátima León	Provincia
+B2	BC2	B	BC	1198	Cusco	VERONICA VALDEZ	Wanchaq	A	01 PLAZA VEA	PLAZA VEA	1198 - Cusco Wanchaq-PVH	1198 - Cusco Wanchaq-PVH	NO	Cusco Wanchaq-PVH	Cusco	JOE HUAMANCONDOR	Provincia
+B2	BC2	B	BC	P001	Lima	VERONICA VALDEZ	Los Olivos	A	01 PLAZA VEA	PLAZA VEA	P001 - Los Olivos - PVH	P001 - Los Olivos - PVH	NO	Los Olivos - PVH	Lima	VIK ENCISO	Lima + Callao
+B2	BC2	B	BC	P052	Lima	VERONICA VALDEZ	Jesus Maria	A	01 PLAZA VEA	PLAZA VEA	P052 - Brasil - PVH	P052 - Brasil - PVH	NO	Brasil - PVH	Lima	VIK ENCISO	Lima + Callao
+B2	BC2	B	BC	P089	Lima	VERONICA VALDEZ	Lince	A	01 PLAZA VEA	PLAZA VEA	P089 - Risso - PVH	P089 - Risso - PVH	NO	Risso - PVH	Lima	VIK ENCISO	Lima + Callao
+B2	BC2	B	BC	P096	Lima	VERONICA VALDEZ	La Molina	A	01 PLAZA VEA	PLAZA VEA SUPER	P096 - San Jorge - PVS	P096 - San Jorge - PVS	NO	San Jorge - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+B2	BC2	B	BC	P130	Ancash	VERONICA VALDEZ	Chimbote	A	01 PLAZA VEA	PLAZA VEA	P130 - Chimbote - PVH	P130 - Chimbote - PVH	NO	Chimbote - PVH	Santa	MELANY ALVARADO	Provincia
+B2	BC2	B	BC	P133	Lima	VERONICA VALDEZ	Chorrillos	A	01 PLAZA VEA	PLAZA VEA	P133 - Guardia Civil - PVH	P133 - Guardia Civil - PVH	NO	Guardia Civil - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+B2	BC2	B	BC	P134	Lima	VERONICA VALDEZ	Lima	A	01 PLAZA VEA	PLAZA VEA	P134 - Centro Civico - PVH	P134 - Centro Civico - PVH	NO	Centro Civico - PVH	Lima	VIK ENCISO	Lima + Callao
+B2	BC2	B	BC	P135	Callao	VERONICA VALDEZ	Bellavista	A	01 PLAZA VEA	PLAZA VEA	P135 - Colonial - PVH	P135 - Colonial - PVH	NO	Colonial - PVH	Callao	VIK ENCISO	Lima + Callao
+B2	BC2	B	BC	P142	Ica	VERONICA VALDEZ	Chincha Alta	A	01 PLAZA VEA	PLAZA VEA	P142 - Chincha - PVH	P142 - Chincha - PVH	NO	Chincha - PVH	Chincha	JOE HUAMANCONDOR	Provincia
+B2	BC2	B	BC	P143	Ancash	VERONICA VALDEZ	Chimbote	A	01 PLAZA VEA	PLAZA VEA	P143 - Nvo Chimbote - PVH	P143 - Nvo Chimbote - PVH	NO	Nvo Chimbote - PVH	Santa	MELANY ALVARADO	Provincia
+B2	BC2	B	BC	P144	Lima	VERONICA VALDEZ	Huacho	A	01 PLAZA VEA	PLAZA VEA	P144 - Huacho - PVH	P144 - Huacho - PVH	NO	Huacho - PVH	Huaura	PEPE ARAMBURU	Provincia
+B2	BC2	B	BC	P172	Puno	VERONICA VALDEZ	Puno	A	01 PLAZA VEA	PLAZA VEA	P172 - Puno - PVH	P172 - Puno - PVH	NO	Puno - PVH	Puno	JOE HUAMANCONDOR	Provincia
+B2	BC2	B	BC	P177	Piura	VERONICA VALDEZ	Parinas	A	01 PLAZA VEA	PLAZA VEA	P177 - Talara - PVH	P177 - Talara - PVH	NO	Talara - PVH	Talara	MELANY ALVARADO	Provincia
+B2	BC2	B	BC	P192	Piura	VERONICA VALDEZ	Sullana	A	01 PLAZA VEA	PLAZA VEA	P192 - Sullana - PVH	P192 - Sullana - PVH	NO	Sullana - PVH	Sullana	MELANY ALVARADO	Provincia
+B2	BC2	B	BC	P203	Lima	VERONICA VALDEZ	Rimac	A	01 PLAZA VEA	PLAZA VEA	P203 - Rimac Alcazar - PVH	P203 - Rimac Alcazar - PVH	NO	Rimac Alcazar - PVH	Lima	VIK ENCISO	Lima + Callao
+B2	BC2	B	BC	P236	Ica	VERONICA VALDEZ	Pisco	A	01 PLAZA VEA	PLAZA VEA	P236 - Pisco - PVH	P236 - Pisco - PVH	NO	Pisco - PVH	Pisco	JOE HUAMANCONDOR	Provincia
+B3		B	B	P197	Huanuco	'-	Huanuco	A	01 PLAZA VEA	PLAZA VEA	P197 - PVEA Huánuco	P197 - PVEA Huánuco	NO	PVEA Huánuco			Provincia
+B3		B	B	P222	Piura	'-	Sullana	A	01 PLAZA VEA	PLAZA VEA	P222 - PVEA Sullana Mall	P222 - PVEA Sullana Mall	NO	PVEA Sullana Mall			Provincia
+B3		B	B	P228	Ucayali	'-	Pucallpa	A	01 PLAZA VEA	PLAZA VEA	P228 - PVEA Pucallpa	P228 - PVEA Pucallpa	NO	PVEA Pucallpa			Provincia
+B3		B	C	P495	San Martin	Sergio Agnello	Tarapoto	A	01 PLAZA VEA	PLAZA VEA	P495 - PVEA Tarapoto	P495 - PVEA Tarapoto	NO	PVEA Tarapoto			Provincia
+B3	BC3	B	BC	P066	Lima	VERONICA VALDEZ	Ate	A	01 PLAZA VEA	PLAZA VEA	P066 - Ate - PVH	P066 - Ate - PVH	NO	Ate - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+B3	BC3	B	BC	P068	Lima	VERONICA VALDEZ	San Borja	A	01 PLAZA VEA	PLAZA VEA	P068 - Primavera - PVH	P068 - Primavera - PVH	NO	Primavera - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+B3	BC3	B	BC	P080	Lima	VERONICA VALDEZ	Santiago de Surco	A	01 PLAZA VEA	PLAZA VEA	P080 - Bolichera - PVH	P080 - Bolichera - PVH	NO	Bolichera - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+B3	BC3	B	BC	P102	Lambayeque	VERONICA VALDEZ	Chiclayo	A	01 PLAZA VEA	PLAZA VEA	P102 - Chiclayo - PVH	P102 - Chiclayo - PVH	NO	Chiclayo - PVH	Chiclayo	MELANY ALVARADO	Provincia
+B3	BC3	B	BC	P104	Arequipa	VERONICA VALDEZ	Arequipa	A	01 PLAZA VEA	PLAZA VEA	P104 - Arequipa - PVH	P104 - Arequipa - PVH	NO	Arequipa - PVH	Arequipa	JOE HUAMANCONDOR	Provincia
+B3	BC3	B	BC	P115	Junin	VERONICA VALDEZ	Huancayo	A	01 PLAZA VEA	PLAZA VEA	P115 - Huancayo - PVH	P115 - Huancayo - PVH	NO	Huancayo - PVH	Huancayo	PEPE ARAMBURU	Provincia
+B3	BC3	B	BC	P122	Ica	VERONICA VALDEZ	Ica	A	01 PLAZA VEA	PLAZA VEA	P122 - Ica - PVH	P122 - Ica - PVH	NO	Ica - PVH	Ica	JOE HUAMANCONDOR	Provincia
+B3	BC3	B	BC	P146	Tacna	VERONICA VALDEZ	Tacna	A	01 PLAZA VEA	PLAZA VEA	P146 - Tacna - PVH	P146 - Tacna - PVH	NO	Tacna - PVH	Tacna	JOE HUAMANCONDOR	Provincia
+B3	BC3	B	BC	P147	Puno	VERONICA VALDEZ	Juliaca	A	01 PLAZA VEA	PLAZA VEA	P147 - Juliaca - PVH	P147 - Juliaca - PVH	NO	Juliaca - PVH	San Roman	JOE HUAMANCONDOR	Provincia
+B3	BC3	B	BC	P202	Lima	VERONICA VALDEZ	Lurin	A	01 PLAZA VEA	PLAZA VEA	P202 - LurIn - PVH	P202 - LurIn - PVH	NO	LurIn - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+B3	BC3	B	BC	P224	Lima	VERONICA VALDEZ	Brena	A	01 PLAZA VEA	PLAZA VEA	P224 - Brena - PVH	P224 - Brena - PVH	NO	Brena - PVH	Lima	VIK ENCISO	Lima + Callao
+B3	BC3	B	BC	P225	Cajamarca	VERONICA VALDEZ	Cajamarca	A	01 PLAZA VEA	PLAZA VEA	P225 - Cajamarca - PVH	P225 - Cajamarca - PVH	NO	Cajamarca - PVH	Cajamarca	PEPE ARAMBURU	Provincia
+B3	BC3	B	BC	P259	Moquegua	VERONICA VALDEZ	Moquegua	A	01 PLAZA VEA	PLAZA VEA	P259 - Moquegua - PVH	P259 - Moquegua - PVH	NO	Moquegua - PVH	Mariscal Nieto	JOE HUAMANCONDOR	Provincia
+B3	BC3	B	BC	P262	Piura	VERONICA VALDEZ	Parinas	A	01 PLAZA VEA	PLAZA VEA	P262 - Talara Municipalidad - PVH	P262 - Talara Municipalidad - PVH	NO	Talara Municipalidad - PVH	Talara	MELANY ALVARADO	Provincia
+B3	BC3	B	BC	P465	Lima	VERONICA VALDEZ	Pueblo Libre	A	01 PLAZA VEA	PLAZA VEA	P465 - Sucre - PVH	P465 - Sucre - PVH	NO	Sucre - PVH	Lima	VIK ENCISO	Lima + Callao
+B3	BC3	B	BC	P516	Moquegua	VERONICA VALDEZ	Ilo	A	01 PLAZA VEA	PLAZA VEA	P516 - Ilo - PVH	P516 - Ilo - PVH	NO	Ilo - PVH	Ilo	JOE HUAMANCONDOR	Provincia
+B3	BC3	B	BC	P723	Lima	VERONICA VALDEZ	Ate	A	01 PLAZA VEA	PLAZA VEA	P723 - Puruchuco - PVH	P723 - Puruchuco - PVH	NO	Puruchuco - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+B3	BC3	B	BC	P724	Tumbes	VERONICA VALDEZ	Tumbes	A	01 PLAZA VEA	PLAZA VEA	P724 - Tumbes - PVH	P724 - Tumbes - PVH	NO	Tumbes - PVH	Tumbes	MELANY ALVARADO	Provincia
+B3	BC3	B	BC	P769	Lambayeque	VERONICA VALDEZ	Chiclayo	A	01 PLAZA VEA	PLAZA VEA	P769 - Chiclayo Aventura - PVH	P769 - Chiclayo Aventura - PVH	NO	Chiclayo Aventura - PVH	Chiclayo	MELANY ALVARADO	Provincia
+B3	BC3	B	BC	SO02	Ucayali	VERONICA VALDEZ	Calleria	A	01 PLAZA VEA	PLAZA VEA	SO02 - Pucallpa - PVO	SO02 - Pucallpa - PVO	NO	Pucallpa - PVO	Coronel Portillo	PEPE ARAMBURU	Provincia
+B3	BC3	B	BC	SO03	Huanuco	VERONICA VALDEZ	Huanuco	A	01 PLAZA VEA	PLAZA VEA	SO03 - Huanuco - PVO	SO03 - Huanuco - PVO	NO	Huanuco - PVO	Huanuco	PEPE ARAMBURU	Provincia
+C1	BC1	C	BC	P198	Lima	VERONICA VALDEZ	Chorrillos	A	01 PLAZA VEA	PLAZA VEA SUPER	P198 - Chorrillos Iglesias - PVS	P198 - Chorrillos Iglesias - PVS	NO	Chorrillos Iglesias - PVS	Lima	Fátima León	Lima + Callao
+C1	BC1	C	BC	P206	Lima	VERONICA VALDEZ	San Miguel	A	01 PLAZA VEA	PLAZA VEA SUPER	P206 - La Paz - PVS	P206 - La Paz - PVS	NO	La Paz - PVS	Lima	Fátima León	Lima + Callao
+C1	BC1	C	BC	P215	Lima	VERONICA VALDEZ	Magdalena Del Mar	A	01 PLAZA VEA	PLAZA VEA SUPER	P215 - Magdalena - PVS	P215 - Magdalena - PVS	NO	Magdalena - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+C1	BC1	C	BC	P216	Lima	VERONICA VALDEZ	San Juan De Lurigancho	A	01 PLAZA VEA	PLAZA VEA SUPER	P216 - Proceres - PVS	P216 - Proceres - PVS	NO	Proceres - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+C1	BC1	C	BC	P219	Callao	VERONICA VALDEZ	La Perla	A	01 PLAZA VEA	PLAZA VEA SUPER	P219 - La Perla - PVS	P219 - La Perla - PVS	NO	La Perla - PVS	Callao	Fátima León	Lima + Callao
+C1	BC1	C	BC	P258	Lima	VERONICA VALDEZ	Chaclacayo	A	01 PLAZA VEA	PLAZA VEA SUPER	P258 - Chaclacayo - PVS	P258 - Chaclacayo - PVS	NO	Chaclacayo - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+C1	FP	C	FP	P191	Lima	VERONICA VALDEZ	Rimac	A	01 PLAZA VEA	PLAZA VEA SUPER	P191 - Cine Rimac - PVS	P191 - Cine Rimac - PVS	NO	Cine Rimac - PVS	Lima	Fátima León	Lima + Callao
+C1	FP	C	FP	P207	Lima	VERONICA VALDEZ	Chorrillos	A	01 PLAZA VEA	PLAZA VEA SUPER	P207 - Villa Marina - PVS	P207 - Villa Marina - PVS	NO	Villa Marina - PVS	Lima	Fátima León	Lima + Callao
+C1	FP	C	FP	P208	Lima	VERONICA VALDEZ	La Victoria	A	01 PLAZA VEA	PLAZA VEA SUPER	P208 - La Victoria PVS	P208 - La Victoria PVS	NO	La Victoria PVS	Lima	Fátima León	Lima + Callao
+C1	FP	C	FP	P422	Lima	VERONICA VALDEZ	Lima	A	01 PLAZA VEA	PLAZA VEA SUPER	P422 - Art Express - PVS	P422 - Art Express - PVS	NO	Art Express - PVS	Lima	Fátima León	Lima + Callao
+C2	BC2	C	BC	P112	Lima	VERONICA VALDEZ	Ate	A	01 PLAZA VEA	PLAZA VEA	P112 - Ceres - PVH	P112 - Ceres - PVH	NO	Ceres - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C2	BC2	C	BC	P141	Lima	VERONICA VALDEZ	Lurigancho	A	01 PLAZA VEA	PLAZA VEA	P141 - Chosica - PVH	P141 - Chosica - PVH	NO	Chosica - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C2	BC2	C	BC	P158	Lima	VERONICA VALDEZ	Villa El Salvador	A	01 PLAZA VEA	PLAZA VEA SUPER	P158 - Villa el Salvador - PVS	P158 - Villa el Salvador - PVS	NO	Villa el Salvador - PVS	Lima	DANIEL RODRIGUEZ	Lima + Callao
+C2	BC2	C	BC	P159	Lima	VERONICA VALDEZ	Rimac	A	01 PLAZA VEA	PLAZA VEA	P159 - Acho - PVH	P159 - Acho - PVH	NO	Acho - PVH	Lima	VIK ENCISO	Lima + Callao
+C2	BC2	C	BC	P201	Lima	VERONICA VALDEZ	Huaral	A	01 PLAZA VEA	PLAZA VEA	P201 - Huaral - PVH	P201 - Huaral - PVH	NO	Huaral - PVH	Huaral	PEPE ARAMBURU	Provincia
+C2	BC2	C	BC	P221	Lima	VERONICA VALDEZ	Barranca	A	01 PLAZA VEA	PLAZA VEA	P221 - Barranca - PVH	P221 - Barranca - PVH	NO	Barranca - PVH	Barranca	PEPE ARAMBURU	Provincia
+C2	BC2	C	BC	P238	Lima	VERONICA VALDEZ	La Victoria	A	01 PLAZA VEA	PLAZA VEA	P238 - Grifo Mexico - PVH	P238 - Grifo Mexico - PVH	NO	Grifo Mexico - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C2	BC2	C	BC	P261	Lima	VERONICA VALDEZ	El Agustino	A	01 PLAZA VEA	PLAZA VEA	P261 - El Agustino - PVH	P261 - El Agustino - PVH	NO	El Agustino - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C3		C	C	P124	Lima	'-	San Juan De Lurigancho	A	01 PLAZA VEA	PLAZA VEA	P124 - PVEA Zárate	P124 - PVEA Zárate	NO	PVEA Zárate			Lima + Callao
+C3		C	C	P235	Cusco	'-	San Jeronimo	A	01 PLAZA VEA	PLAZA VEA	P235 - PVEA Cusco San Jerónimo	P235 - PVEA Cusco San Jerónimo	NO	PVEA Cusco San Jerónimo			Provincia
+C3		C	C	P260	Cajamarca	Sergio Agnello	Jaen	A	01 PLAZA VEA	PLAZA VEA	P260 - PVEA Jaen	P260 - PVEA Jaen	NO	PVEA Jaen			Provincia
+C3	BC3	C	BC	1593	Lima	VERONICA VALDEZ	San Juan De Lurigancho	A	01 PLAZA VEA	PLAZA VEA	1593 - SJL Aventura - PVH	1593 - SJL Aventura - PVH	NO	SJL Aventura - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C3	BC3	C	BC	P059	Callao	VERONICA VALDEZ	Bellavista	A	01 PLAZA VEA	PLAZA VEA	P059 - Callao - PVH	P059 - Callao - PVH	NO	Callao - PVH	Callao	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P084	Lima	VERONICA VALDEZ	Comas	A	01 PLAZA VEA	PLAZA VEA	P084 - Comas - PVH	P084 - Comas - PVH	NO	Comas - PVH	Lima	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P114	Lima	VERONICA VALDEZ	San Martin de Porres	A	01 PLAZA VEA	PLAZA VEA	P114 - Pro - PVH	P114 - Pro - PVH	NO	Pro - PVH	Lima	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P117	Lima	VERONICA VALDEZ	Independencia	A	01 PLAZA VEA	PLAZA VEA	P117 - Izaguirre - PVH	P117 - Izaguirre - PVH	NO	Izaguirre - PVH	Lima	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P118	Lima	VERONICA VALDEZ	Lima	A	01 PLAZA VEA	PLAZA VEA	P118 - Alfonso Ugarte - PVH	P118 - Alfonso Ugarte - PVH	NO	Alfonso Ugarte - PVH	Lima	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P119	Lima	VERONICA VALDEZ	Puente Piedra	A	01 PLAZA VEA	PLAZA VEA	P119 - Puente Piedra - PVH	P119 - Puente Piedra - PVH	NO	Puente Piedra - PVH	Lima	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P120	Lima	VERONICA VALDEZ	Los Olivos	A	01 PLAZA VEA	PLAZA VEA	P120 - Universitaria - PVH	P120 - Universitaria - PVH	NO	Universitaria - PVH	Lima	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P123	La Libertad	VERONICA VALDEZ	Trujillo	A	01 PLAZA VEA	PLAZA VEA	P123 - El Chacarero - PVH	P123 - El Chacarero - PVH	NO	El Chacarero - PVH	Trujillo	MELANY ALVARADO	Provincia
+C3	BC3	C	BC	P125	Lima	VERONICA VALDEZ	San Juan De Lurigancho	A	01 PLAZA VEA	PLAZA VEA	P125 - SJ Lurigancho - PVH	P125 - SJ Lurigancho - PVH	NO	SJ Lurigancho - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C3	BC3	C	BC	P126	Lima	VERONICA VALDEZ	Ate	A	01 PLAZA VEA	PLAZA VEA	P126 - Santa Clara - PVH	P126 - Santa Clara - PVH	NO	Santa Clara - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C3	BC3	C	BC	P226	Piura	VERONICA VALDEZ	Paita	A	01 PLAZA VEA	PLAZA VEA	P226 - Paita - PVH	P226 - Paita - PVH	NO	Paita - PVH	Paita	MELANY ALVARADO	Provincia
+C3	BC3	C	BC	P231	Callao	VERONICA VALDEZ	Ventanilla	A	01 PLAZA VEA	PLAZA VEA	P231 - Ventanilla - PVH	P231 - Ventanilla - PVH	NO	Ventanilla - PVH	Callao	VIK ENCISO	Lima + Callao
+C3	BC3	C	BC	P291	Lima	VERONICA VALDEZ	Villa Maria Del Triunfo	A	01 PLAZA VEA	PLAZA VEA	P291 - La Curva - PVH	P291 - La Curva - PVH	NO	La Curva - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C3	BC3	C	BC	P333	Lima	VERONICA VALDEZ	Villa El Salvador	A	01 PLAZA VEA	PLAZA VEA	P333 - Ves Placita - PVH	P333 - Ves Placita - PVH	NO	Ves Placita - PVH	Lima	RODOLFO OLIVRY	Lima + Callao
+C3	BC3	C	BC	SO04	Cajamarca	VERONICA VALDEZ	Jaen	A	01 PLAZA VEA	PLAZA VEA	SO04 - Jaen - PVO	SO04 - Jaen - PVO	NO	Jaen - PVO	Jaen	PEPE ARAMBURU	Provincia
+C3	BC3	C	BC	SO05	San Martin	VERONICA VALDEZ	Tarapoto	A	01 PLAZA VEA	PLAZA VEA	SO05 - Tarapoto - PVO	SO05 - Tarapoto - PVO	NO	Tarapoto - PVO	San Martin	PEPE ARAMBURU	Provincia
+C3	BC3	C	BC	SO06	San Martin	VERONICA VALDEZ	Tarapoto	A	01 PLAZA VEA	PLAZA VEA	SO06 - Tarapoto 2 - PVO	SO06 - Tarapoto 2 - PVO	NO	Tarapoto 2 - PVO	San Martin	PEPE ARAMBURU	Provincia
+E1	E1	E	E	P264	Lima	Sergio Agnello	San Borja	A	01 PLAZA VEA	PLAZA VEA	P264 - E-Commerce Non Food	P264 - E-Commerce Non Food	NO	E-Commerce Non Food	Lima	No Operativa	Lima + Callao
+EX	FP	EX	FP	P138	Lima	VERONICA VALDEZ	Lima	A	01 PLAZA VEA	PLAZA VEA EXPRESS	P138 - Jiron de la Union - PVE	P138 - Jiron de la Union - PVE	NO	Jiron de la Union - PVE	Lima	Fátima León	Lima + Callao
+EX	FP	EX	FP	P180	La Libertad	VERONICA VALDEZ	Trujillo	A	01 PLAZA VEA	PLAZA VEA EXPRESS	P180 - Centro Trujillo - PVE	P180 - Centro Trujillo - PVE	NO	Centro Trujillo - PVE	Trujillo	Fátima León	Provincia
+EX	FP	EX	FP	P181	Ancash	VERONICA VALDEZ	Chimbote	A	01 PLAZA VEA	PLAZA VEA EXPRESS	P181 - Supermercados SKA - PVE	P181 - Supermercados SKA - PVE	NO	Supermercados SKA - PVE	Santa	Fátima León	Provincia
+EX	FP	EX	FP	X209	Lima	VERONICA VALDEZ	Magdalena Del Mar	A	01 PLAZA VEA	PLAZA VEA EXPRESS	X209 - Bolognesi - PVE	X209 - Bolognesi - PVE	NO	Bolognesi - PVE	Lima	Fátima León	Lima + Callao
+EX	FP	EX	FP	X210	Lima	VERONICA VALDEZ	San Isidro	A	01 PLAZA VEA	PLAZA VEA EXPRESS	X210 - Santa Cruz - PVE	X210 - Santa Cruz - PVE	NO	Santa Cruz - PVE	Lima	Fátima León	Lima + Callao
+V1		V	A	V019	Lima	VERONICA VALDEZ	Miraflores	A	02 VIVANDA	VIVANDA	V019 - Pardo - VIV	V019 - Pardo - VIV	NO	Pardo - VIV	Lima	María Rojas	Lima + Callao
+V1		V	V	V151	Lima	'-	La Molina	A	02 VIVANDA	VIVANDA	V151 - La Molina VIV	V151 - La Molina VIV	NO	La Molina VIV			Lima + Callao
+V1	A1	V	A	V090	Lima	VERONICA VALDEZ	San Isidro	A	02 VIVANDA	VIVANDA	V090 - Pezet - VIV	V090 - Pezet - VIV	NO	Pezet - VIV	Lima	María Rojas	Lima + Callao
+V1	A1	V	A	V093	Lima	VERONICA VALDEZ	San Isidro	A	02 VIVANDA	VIVANDA	V093 - Dos de Mayo - VIV	V093 - Dos de Mayo - VIV	NO	Dos de Mayo - VIV	Lima	María Rojas	Lima + Callao
+V1	A1	V	A	V094	Lima	VERONICA VALDEZ	Miraflores	A	02 VIVANDA	VIVANDA	V094 - Benavides - VIV	V094 - Benavides - VIV	NO	Benavides - VIV	Lima	María Rojas	Lima + Callao
+V1	A1	V	A	V095	Lima	VERONICA VALDEZ	Santiago de Surco	A	02 VIVANDA	VIVANDA	V095 - Monterrico - VIV	V095 - Monterrico - VIV	NO	Monterrico - VIV	Lima	María Rojas	Lima + Callao
+V1	A1	V	A	V116	Lima	VERONICA VALDEZ	Magdalena Del Mar	A	02 VIVANDA	VIVANDA	V116 - Javier Prado - VIV	V116 - Javier Prado - VIV	NO	Javier Prado - VIV	Lima	María Rojas	Lima + Callao
+V1	A1	V	A	V140	Lima	VERONICA VALDEZ	San Isidro	A	02 VIVANDA	VIVANDA	V140 - Libertadores - VIV	V140 - Libertadores - VIV	NO	Libertadores - VIV	Lima	María Rojas	Lima + Callao
+V1	E2	V	V	V285	Lima	Sergio Agnello	San Borja	A	02 VIVANDA	VIVANDA	V285 - Vivanda Ecommerce	V285 - Vivanda Ecommerce	NO	Vivanda Ecommerce			Lima + Callao
+V2	V2	V	A	V290	Lima	VERONICA VALDEZ	Asia	A	02 VIVANDA	VIVANDA	V290 - Asia - VIV	V290 - Asia - VIV	NO	Asia - VIV	Cañete	María Rojas	Lima + Callao
+V4	V4	V	V	V254	Lima	Sergio Agnello	San Borja	A	02 VIVANDA	VIVANDA	V254 - Destinos al Sabor - VIV	V254 - Destinos al Sabor - VIV	NO	Destinos al Sabor - VIV	Lima	María Rojas	Lima + Callao
+Y1		Y	Y	PV14	null	'-	PMM	A	01 PLAZA VEA	PLAZA VEA	PV14 - Collique - PVH	PV14 - Collique - PVH	NO	Collique - PVH			Lima + Callao

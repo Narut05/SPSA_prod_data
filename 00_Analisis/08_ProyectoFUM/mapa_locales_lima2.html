@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4ce6198a59b022a9bb5a3b11aa808e3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4ce6198a59b022a9bb5a3b11aa808e3b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4ce6198a59b022a9bb5a3b11aa808e3b = L.map(
+                "map_4ce6198a59b022a9bb5a3b11aa808e3b",
+                {
+                    center: [-12.105662818181816, -77.00756177272727],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_43b654499fe256b885abc6f5e67dc727 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_43b654499fe256b885abc6f5e67dc727.addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var marker_94522fe7072d9127461c9a9e1a394deb = L.marker(
+                [-12.124519, -77.028015],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_e8a5c2171cbf8be6555e8440b7486aa9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a51c07460a3370b0626c8447ba322df = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cc860a4f2060565870c26a56d4f51c5d = $(`<div id="html_cc860a4f2060565870c26a56d4f51c5d" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Benavides - VIV</strong><br>         <span style='color: gray;'>Cat: Vivanda</span><br>         <code>Lat: -12.1245</code><br>         <code>Lon: -77.0280</code>     </div>     </div>`)[0];
+                popup_5a51c07460a3370b0626c8447ba322df.setContent(html_cc860a4f2060565870c26a56d4f51c5d);
+            
+        
+
+        marker_94522fe7072d9127461c9a9e1a394deb.bindPopup(popup_5a51c07460a3370b0626c8447ba322df)
+        ;
+
+        
+    
+    
+            marker_94522fe7072d9127461c9a9e1a394deb.bindTooltip(
+                `<div>
+                     Benavides - VIV (Vivanda)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_94522fe7072d9127461c9a9e1a394deb.setIcon(icon_e8a5c2171cbf8be6555e8440b7486aa9);
+            
+    
+            var marker_8820ea790cea9bcc8c505af461ea2556 = L.marker(
+                [-12.092161, -77.045429],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_7ea7a8733fde6a8f1d4dc1193c6f0d2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b572332357c822c9b5a6afb25825598d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b8e6eb1c334ddb5e570034d2af8e593d = $(`<div id="html_b8e6eb1c334ddb5e570034d2af8e593d" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Dos de Mayo - VIV</strong><br>         <span style='color: gray;'>Cat: Vivanda</span><br>         <code>Lat: -12.0922</code><br>         <code>Lon: -77.0454</code>     </div>     </div>`)[0];
+                popup_b572332357c822c9b5a6afb25825598d.setContent(html_b8e6eb1c334ddb5e570034d2af8e593d);
+            
+        
+
+        marker_8820ea790cea9bcc8c505af461ea2556.bindPopup(popup_b572332357c822c9b5a6afb25825598d)
+        ;
+
+        
+    
+    
+            marker_8820ea790cea9bcc8c505af461ea2556.bindTooltip(
+                `<div>
+                     Dos de Mayo - VIV (Vivanda)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8820ea790cea9bcc8c505af461ea2556.setIcon(icon_7ea7a8733fde6a8f1d4dc1193c6f0d2a);
+            
+    
+            var marker_b9f60bbb5847218d39a712bc43482337 = L.marker(
+                [-12.093174, -77.057905],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_d463048aa02e5bdea69fbe3e430a4148 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_105eb5f983402f2952b8be3d529ea6bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7c6a034e850f40d9800a3c6c2c277d77 = $(`<div id="html_7c6a034e850f40d9800a3c6c2c277d77" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Javier Prado - VIV</strong><br>         <span style='color: gray;'>Cat: Vivanda</span><br>         <code>Lat: -12.0932</code><br>         <code>Lon: -77.0579</code>     </div>     </div>`)[0];
+                popup_105eb5f983402f2952b8be3d529ea6bc.setContent(html_7c6a034e850f40d9800a3c6c2c277d77);
+            
+        
+
+        marker_b9f60bbb5847218d39a712bc43482337.bindPopup(popup_105eb5f983402f2952b8be3d529ea6bc)
+        ;
+
+        
+    
+    
+            marker_b9f60bbb5847218d39a712bc43482337.bindTooltip(
+                `<div>
+                     Javier Prado - VIV (Vivanda)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9f60bbb5847218d39a712bc43482337.setIcon(icon_d463048aa02e5bdea69fbe3e430a4148);
+            
+    
+            var marker_5ea69830ae166db1599e081dc1078704 = L.marker(
+                [-12.103817, -77.037937],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_64b94b3bff7852f92f9861f93f4eb03c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_834f7abe46b46cea59729708bffdcead = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_338bef41013638549fdf6e7f4ce8b4f2 = $(`<div id="html_338bef41013638549fdf6e7f4ce8b4f2" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Libertadores - VIV</strong><br>         <span style='color: gray;'>Cat: Vivanda</span><br>         <code>Lat: -12.1038</code><br>         <code>Lon: -77.0379</code>     </div>     </div>`)[0];
+                popup_834f7abe46b46cea59729708bffdcead.setContent(html_338bef41013638549fdf6e7f4ce8b4f2);
+            
+        
+
+        marker_5ea69830ae166db1599e081dc1078704.bindPopup(popup_834f7abe46b46cea59729708bffdcead)
+        ;
+
+        
+    
+    
+            marker_5ea69830ae166db1599e081dc1078704.bindTooltip(
+                `<div>
+                     Libertadores - VIV (Vivanda)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5ea69830ae166db1599e081dc1078704.setIcon(icon_64b94b3bff7852f92f9861f93f4eb03c);
+            
+    
+            var marker_55043c7c7f24b42163c207ace27581fd = L.marker(
+                [-12.10922, -76.971885],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_c5ea8c2cc09af916b4c699c683ca37f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cc0025ea944ce1fdf00e008f622e0ea = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e21cb2b560a52e956d2ca24175cb0bd6 = $(`<div id="html_e21cb2b560a52e956d2ca24175cb0bd6" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Monterrico - VIV</strong><br>         <span style='color: gray;'>Cat: Vivanda</span><br>         <code>Lat: -12.1092</code><br>         <code>Lon: -76.9719</code>     </div>     </div>`)[0];
+                popup_2cc0025ea944ce1fdf00e008f622e0ea.setContent(html_e21cb2b560a52e956d2ca24175cb0bd6);
+            
+        
+
+        marker_55043c7c7f24b42163c207ace27581fd.bindPopup(popup_2cc0025ea944ce1fdf00e008f622e0ea)
+        ;
+
+        
+    
+    
+            marker_55043c7c7f24b42163c207ace27581fd.bindTooltip(
+                `<div>
+                     Monterrico - VIV (Vivanda)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55043c7c7f24b42163c207ace27581fd.setIcon(icon_c5ea8c2cc09af916b4c699c683ca37f9);
+            
+    
+            var marker_549429b06ffba03e797bdb6cedbd1f70 = L.marker(
+                [-12.1027, -77.0522],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_3b4450eab33bbe9da13f654cb596121b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3073c7ce4f9d35f49d490e4c8750199 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c12bf5189fa83676291507f99fc956ad = $(`<div id="html_c12bf5189fa83676291507f99fc956ad" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Pezet - VIV</strong><br>         <span style='color: gray;'>Cat: Vivanda</span><br>         <code>Lat: -12.1027</code><br>         <code>Lon: -77.0522</code>     </div>     </div>`)[0];
+                popup_f3073c7ce4f9d35f49d490e4c8750199.setContent(html_c12bf5189fa83676291507f99fc956ad);
+            
+        
+
+        marker_549429b06ffba03e797bdb6cedbd1f70.bindPopup(popup_f3073c7ce4f9d35f49d490e4c8750199)
+        ;
+
+        
+    
+    
+            marker_549429b06ffba03e797bdb6cedbd1f70.bindTooltip(
+                `<div>
+                     Pezet - VIV (Vivanda)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_549429b06ffba03e797bdb6cedbd1f70.setIcon(icon_3b4450eab33bbe9da13f654cb596121b);
+            
+    
+            var marker_508437d9d6204e8b7149b8ea6f91e986 = L.marker(
+                [-12.11952, -77.036257],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_380726bf8763c314650ca9a90c7bd6a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2cfd9d7ac86976481c5df999d7d826c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8fec90d64c40c8bb81a4e89493d77a80 = $(`<div id="html_8fec90d64c40c8bb81a4e89493d77a80" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>PARDO Benavides</strong><br>         <span style='color: gray;'>Cat: Pardos</span><br>         <code>Lat: -12.1195</code><br>         <code>Lon: -77.0363</code>     </div>     </div>`)[0];
+                popup_c2cfd9d7ac86976481c5df999d7d826c.setContent(html_8fec90d64c40c8bb81a4e89493d77a80);
+            
+        
+
+        marker_508437d9d6204e8b7149b8ea6f91e986.bindPopup(popup_c2cfd9d7ac86976481c5df999d7d826c)
+        ;
+
+        
+    
+    
+            marker_508437d9d6204e8b7149b8ea6f91e986.bindTooltip(
+                `<div>
+                     PARDO Benavides (Pardos)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_508437d9d6204e8b7149b8ea6f91e986.setIcon(icon_380726bf8763c314650ca9a90c7bd6a4);
+            
+    
+            var marker_3ed5bd676b58fe5c17506b3449ff6cfd = L.marker(
+                [-12.11014, -77.03618],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_c71bac648c763b3480b058e8dc0ed0c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf0d2323ade0ca8216d7bdda1ce5dd3e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0e287a835b7d52b1ef2387cce7d9c98b = $(`<div id="html_0e287a835b7d52b1ef2387cce7d9c98b" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Óvalo Gutiérrez</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1101</code><br>         <code>Lon: -77.0362</code>     </div>     </div>`)[0];
+                popup_cf0d2323ade0ca8216d7bdda1ce5dd3e.setContent(html_0e287a835b7d52b1ef2387cce7d9c98b);
+            
+        
+
+        marker_3ed5bd676b58fe5c17506b3449ff6cfd.bindPopup(popup_cf0d2323ade0ca8216d7bdda1ce5dd3e)
+        ;
+
+        
+    
+    
+            marker_3ed5bd676b58fe5c17506b3449ff6cfd.bindTooltip(
+                `<div>
+                     Wong Óvalo Gutiérrez (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3ed5bd676b58fe5c17506b3449ff6cfd.setIcon(icon_c71bac648c763b3480b058e8dc0ed0c0);
+            
+    
+            var marker_4a9234076aa48a45cae0f86e2e8428c6 = L.marker(
+                [-12.116343, -77.011833],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_e6b78a1726c6d7a17e8134cbc2909ea8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ad624309f95698d770a2f05bae07373 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_429ec238c9fdd84d1997a37e52489ee6 = $(`<div id="html_429ec238c9fdd84d1997a37e52489ee6" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Aurora</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1163</code><br>         <code>Lon: -77.0118</code>     </div>     </div>`)[0];
+                popup_0ad624309f95698d770a2f05bae07373.setContent(html_429ec238c9fdd84d1997a37e52489ee6);
+            
+        
+
+        marker_4a9234076aa48a45cae0f86e2e8428c6.bindPopup(popup_0ad624309f95698d770a2f05bae07373)
+        ;
+
+        
+    
+    
+            marker_4a9234076aa48a45cae0f86e2e8428c6.bindTooltip(
+                `<div>
+                     Wong Aurora (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4a9234076aa48a45cae0f86e2e8428c6.setIcon(icon_e6b78a1726c6d7a17e8134cbc2909ea8);
+            
+    
+            var marker_a780e66cee29e7f0a53902928ca386dd = L.marker(
+                [-12.124584, -76.999516],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_000ec32308ecaef90afc026bcd91f095 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72b30114cce463bb0aedb640b171c6d3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c07849e8fc125b0138bfb71fb1dd7d6f = $(`<div id="html_c07849e8fc125b0138bfb71fb1dd7d6f" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Benavides</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1246</code><br>         <code>Lon: -76.9995</code>     </div>     </div>`)[0];
+                popup_72b30114cce463bb0aedb640b171c6d3.setContent(html_c07849e8fc125b0138bfb71fb1dd7d6f);
+            
+        
+
+        marker_a780e66cee29e7f0a53902928ca386dd.bindPopup(popup_72b30114cce463bb0aedb640b171c6d3)
+        ;
+
+        
+    
+    
+            marker_a780e66cee29e7f0a53902928ca386dd.bindTooltip(
+                `<div>
+                     Wong Benavides (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a780e66cee29e7f0a53902928ca386dd.setIcon(icon_000ec32308ecaef90afc026bcd91f095);
+            
+    
+            var marker_c215e8b38f3963e66edda6780a91bc06 = L.marker(
+                [-12.124118, -77.031535],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_789ea060e75e0b6207d4e4cb4a930e0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15aba8f11a56ed8f50145987caea518b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_37a95dd71948594704ca6f3b90226a5a = $(`<div id="html_37a95dd71948594704ca6f3b90226a5a" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Bajada Balta</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1241</code><br>         <code>Lon: -77.0315</code>     </div>     </div>`)[0];
+                popup_15aba8f11a56ed8f50145987caea518b.setContent(html_37a95dd71948594704ca6f3b90226a5a);
+            
+        
+
+        marker_c215e8b38f3963e66edda6780a91bc06.bindPopup(popup_15aba8f11a56ed8f50145987caea518b)
+        ;
+
+        
+    
+    
+            marker_c215e8b38f3963e66edda6780a91bc06.bindTooltip(
+                `<div>
+                     Wong Bajada Balta (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c215e8b38f3963e66edda6780a91bc06.setIcon(icon_789ea060e75e0b6207d4e4cb4a930e0a);
+            
+    
+            var marker_ae92c9819f0278720f2b560ae0b2fc6e = L.marker(
+                [-12.1314, -77.03136],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_0a9e43e0915c55e3c82ddf6a98bd2863 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_083e90d9bd541adf8b8a8b32663e8c77 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e135159cf6ffcb71d3141510b9075c8f = $(`<div id="html_e135159cf6ffcb71d3141510b9075c8f" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Larcomar</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1314</code><br>         <code>Lon: -77.0314</code>     </div>     </div>`)[0];
+                popup_083e90d9bd541adf8b8a8b32663e8c77.setContent(html_e135159cf6ffcb71d3141510b9075c8f);
+            
+        
+
+        marker_ae92c9819f0278720f2b560ae0b2fc6e.bindPopup(popup_083e90d9bd541adf8b8a8b32663e8c77)
+        ;
+
+        
+    
+    
+            marker_ae92c9819f0278720f2b560ae0b2fc6e.bindTooltip(
+                `<div>
+                     Wong Larcomar (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae92c9819f0278720f2b560ae0b2fc6e.setIcon(icon_0a9e43e0915c55e3c82ddf6a98bd2863);
+            
+    
+            var marker_33d2be01afdce1793cb2749b068d7c9f = L.marker(
+                [-12.0921, -77.04176],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_72bd53e29e544d38322090d7a0e87b84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4129203cab99cfbef2d74659338443cd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5090cbca39eff22e6253c058418fee8 = $(`<div id="html_b5090cbca39eff22e6253c058418fee8" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Dos de Mayo</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0921</code><br>         <code>Lon: -77.0418</code>     </div>     </div>`)[0];
+                popup_4129203cab99cfbef2d74659338443cd.setContent(html_b5090cbca39eff22e6253c058418fee8);
+            
+        
+
+        marker_33d2be01afdce1793cb2749b068d7c9f.bindPopup(popup_4129203cab99cfbef2d74659338443cd)
+        ;
+
+        
+    
+    
+            marker_33d2be01afdce1793cb2749b068d7c9f.bindTooltip(
+                `<div>
+                     Wong Dos de Mayo (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_33d2be01afdce1793cb2749b068d7c9f.setIcon(icon_72bd53e29e544d38322090d7a0e87b84);
+            
+    
+            var marker_dce6ecc2f3d179c8f4e8fcb3cbe9eb35 = L.marker(
+                [-12.11182, -76.99213],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_88295654a42c6b2ffb85661787420d2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b736eca346a97d66ae5e42ee1373ff5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b8565498e984e385125869b9f7840348 = $(`<div id="html_b8565498e984e385125869b9f7840348" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Chacarilla</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1118</code><br>         <code>Lon: -76.9921</code>     </div>     </div>`)[0];
+                popup_6b736eca346a97d66ae5e42ee1373ff5.setContent(html_b8565498e984e385125869b9f7840348);
+            
+        
+
+        marker_dce6ecc2f3d179c8f4e8fcb3cbe9eb35.bindPopup(popup_6b736eca346a97d66ae5e42ee1373ff5)
+        ;
+
+        
+    
+    
+            marker_dce6ecc2f3d179c8f4e8fcb3cbe9eb35.bindTooltip(
+                `<div>
+                     Wong Chacarilla (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dce6ecc2f3d179c8f4e8fcb3cbe9eb35.setIcon(icon_88295654a42c6b2ffb85661787420d2c);
+            
+    
+            var marker_6eab6262a594d08d7f77f64ea33fe31f = L.marker(
+                [-12.125556, -76.982245],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_ddaf5315d632c14b60db5793a81eaa56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a29e5d63b032c9bc4b60bcd25403108 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4bbd26278aa14fb60d26e4f6c2c4c913 = $(`<div id="html_4bbd26278aa14fb60d26e4f6c2c4c913" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Gardenias</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1256</code><br>         <code>Lon: -76.9822</code>     </div>     </div>`)[0];
+                popup_1a29e5d63b032c9bc4b60bcd25403108.setContent(html_4bbd26278aa14fb60d26e4f6c2c4c913);
+            
+        
+
+        marker_6eab6262a594d08d7f77f64ea33fe31f.bindPopup(popup_1a29e5d63b032c9bc4b60bcd25403108)
+        ;
+
+        
+    
+    
+            marker_6eab6262a594d08d7f77f64ea33fe31f.bindTooltip(
+                `<div>
+                     Wong Gardenias (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6eab6262a594d08d7f77f64ea33fe31f.setIcon(icon_ddaf5315d632c14b60db5793a81eaa56);
+            
+    
+            var marker_6c2e473926c54fbee7fb4fe48085060d = L.marker(
+                [-12.14283, -76.99013],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_ae66fc573adb744d8278417caeba340c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3dbc4ab42a6824ac848dd627f5f372a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2d36c26c5c3bee25bf120e719a8059aa = $(`<div id="html_2d36c26c5c3bee25bf120e719a8059aa" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Marsano</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.1428</code><br>         <code>Lon: -76.9901</code>     </div>     </div>`)[0];
+                popup_f3dbc4ab42a6824ac848dd627f5f372a.setContent(html_2d36c26c5c3bee25bf120e719a8059aa);
+            
+        
+
+        marker_6c2e473926c54fbee7fb4fe48085060d.bindPopup(popup_f3dbc4ab42a6824ac848dd627f5f372a)
+        ;
+
+        
+    
+    
+            marker_6c2e473926c54fbee7fb4fe48085060d.bindTooltip(
+                `<div>
+                     Wong Marsano (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6c2e473926c54fbee7fb4fe48085060d.setIcon(icon_ae66fc573adb744d8278417caeba340c);
+            
+    
+            var marker_33eb0034d4c2ca638a92185990bfafe0 = L.marker(
+                [-12.090333, -76.92484],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_c1658cab87b8224df98835a1e3106fd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de9b8db2675b2969dbaba30f03a9d1ae = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_50e7ba5f3ed1fe37bbe9ce19d07a5b6d = $(`<div id="html_50e7ba5f3ed1fe37bbe9ce19d07a5b6d" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong La Planicie</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0903</code><br>         <code>Lon: -76.9248</code>     </div>     </div>`)[0];
+                popup_de9b8db2675b2969dbaba30f03a9d1ae.setContent(html_50e7ba5f3ed1fe37bbe9ce19d07a5b6d);
+            
+        
+
+        marker_33eb0034d4c2ca638a92185990bfafe0.bindPopup(popup_de9b8db2675b2969dbaba30f03a9d1ae)
+        ;
+
+        
+    
+    
+            marker_33eb0034d4c2ca638a92185990bfafe0.bindTooltip(
+                `<div>
+                     Wong La Planicie (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_33eb0034d4c2ca638a92185990bfafe0.setIcon(icon_c1658cab87b8224df98835a1e3106fd5);
+            
+    
+            var marker_0d49c0832da40fff5856cb9752299404 = L.marker(
+                [-12.083311, -76.966952],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_04c0acbf34e7961db7b99b460b23f0cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a8ceeb4a9ed60376e4d6dec5eca576d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8e2e699c897e38bc492553adedae728f = $(`<div id="html_8e2e699c897e38bc492553adedae728f" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Camacho</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0833</code><br>         <code>Lon: -76.9670</code>     </div>     </div>`)[0];
+                popup_2a8ceeb4a9ed60376e4d6dec5eca576d.setContent(html_8e2e699c897e38bc492553adedae728f);
+            
+        
+
+        marker_0d49c0832da40fff5856cb9752299404.bindPopup(popup_2a8ceeb4a9ed60376e4d6dec5eca576d)
+        ;
+
+        
+    
+    
+            marker_0d49c0832da40fff5856cb9752299404.bindTooltip(
+                `<div>
+                     Wong Camacho (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0d49c0832da40fff5856cb9752299404.setIcon(icon_04c0acbf34e7961db7b99b460b23f0cc);
+            
+    
+            var marker_6093a1056ff58dddef2598318d349c10 = L.marker(
+                [-12.086438, -76.906597],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_c7b66b3b5ff28704c62872f10b27e834 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec309a13d62f32f5533bfbe184ea6723 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a57003061ed0a945e4989a7d55cd5e50 = $(`<div id="html_a57003061ed0a945e4989a7d55cd5e50" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong Sol de La Molina</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0864</code><br>         <code>Lon: -76.9066</code>     </div>     </div>`)[0];
+                popup_ec309a13d62f32f5533bfbe184ea6723.setContent(html_a57003061ed0a945e4989a7d55cd5e50);
+            
+        
+
+        marker_6093a1056ff58dddef2598318d349c10.bindPopup(popup_ec309a13d62f32f5533bfbe184ea6723)
+        ;
+
+        
+    
+    
+            marker_6093a1056ff58dddef2598318d349c10.bindTooltip(
+                `<div>
+                     Wong Sol de La Molina (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6093a1056ff58dddef2598318d349c10.setIcon(icon_c7b66b3b5ff28704c62872f10b27e834);
+            
+    
+            var marker_1bf408572cb23fb2fa10b6a48e6900a1 = L.marker(
+                [-12.099195, -77.001602],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_e5438da7871b008e4caa42a87351b53d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_497f414d680ea85ee8e952fef27d711f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_65f21f2bfe91ae1838e16ecbbfa50884 = $(`<div id="html_65f21f2bfe91ae1838e16ecbbfa50884" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong San Borja</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0992</code><br>         <code>Lon: -77.0016</code>     </div>     </div>`)[0];
+                popup_497f414d680ea85ee8e952fef27d711f.setContent(html_65f21f2bfe91ae1838e16ecbbfa50884);
+            
+        
+
+        marker_1bf408572cb23fb2fa10b6a48e6900a1.bindPopup(popup_497f414d680ea85ee8e952fef27d711f)
+        ;
+
+        
+    
+    
+            marker_1bf408572cb23fb2fa10b6a48e6900a1.bindTooltip(
+                `<div>
+                     Wong San Borja (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1bf408572cb23fb2fa10b6a48e6900a1.setIcon(icon_e5438da7871b008e4caa42a87351b53d);
+            
+    
+            var marker_6697c348fc09fc524f62d70a7a5c60b4 = L.marker(
+                [-12.07671, -77.08122],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_2e3ac20d1022612700d45f5013f3352b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c41bb3cc76ce3c62b11e831984ea65d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ec9b30401d57a5afc3c01f4d96b91804 = $(`<div id="html_ec9b30401d57a5afc3c01f4d96b91804" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Wong San Miguel</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0767</code><br>         <code>Lon: -77.0812</code>     </div>     </div>`)[0];
+                popup_c41bb3cc76ce3c62b11e831984ea65d0.setContent(html_ec9b30401d57a5afc3c01f4d96b91804);
+            
+        
+
+        marker_6697c348fc09fc524f62d70a7a5c60b4.bindPopup(popup_c41bb3cc76ce3c62b11e831984ea65d0)
+        ;
+
+        
+    
+    
+            marker_6697c348fc09fc524f62d70a7a5c60b4.bindTooltip(
+                `<div>
+                     Wong San Miguel (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6697c348fc09fc524f62d70a7a5c60b4.setIcon(icon_2e3ac20d1022612700d45f5013f3352b);
+            
+    
+            var marker_005409b4c7743eb971ab41c65731aacd = L.marker(
+                [-12.064593, -76.938831],
+                {
+}
+            ).addTo(map_4ce6198a59b022a9bb5a3b11aa808e3b);
+        
+    
+            var icon_8f324d4694e09f3fd51112e111d9ad07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-basket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69b041c72101770f0c0724de410104f7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9e7f8e99337db890ba51a69229847d6f = $(`<div id="html_9e7f8e99337db890ba51a69229847d6f" style="width: 100.0%; height: 100.0%;">     <div style='font-family: sans-serif; font-size: 12px;'>         <strong>Hipermercado Wong Ate</strong><br>         <span style='color: gray;'>Cat: Wong</span><br>         <code>Lat: -12.0646</code><br>         <code>Lon: -76.9388</code>     </div>     </div>`)[0];
+                popup_69b041c72101770f0c0724de410104f7.setContent(html_9e7f8e99337db890ba51a69229847d6f);
+            
+        
+
+        marker_005409b4c7743eb971ab41c65731aacd.bindPopup(popup_69b041c72101770f0c0724de410104f7)
+        ;
+
+        
+    
+    
+            marker_005409b4c7743eb971ab41c65731aacd.bindTooltip(
+                `<div>
+                     Hipermercado Wong Ate (Wong)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_005409b4c7743eb971ab41c65731aacd.setIcon(icon_8f324d4694e09f3fd51112e111d9ad07);
+            
+</script>
+</html>
