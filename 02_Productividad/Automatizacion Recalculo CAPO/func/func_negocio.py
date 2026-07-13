@@ -5,7 +5,7 @@ config_reglas_prod = {
     "FRESCOS":      {"tipo": "incluir", "grupo": ["FRESCOS"]},
     'ALMACEN FRESCOS':  {"tipo": "incluir", "grupo": ["FRESCOS"]},
     'ABARROTES':    {"tipo": "incluir", "grupo": ["ABARROTES", "NONFOOD"]},
-    'CAJAS':        {"tipo": "excluir", "condicion_col": "tipo_venta", "condicion_val": "Venta Ecommerce", "exclusion_col": "area", "exclusion_grupo": ["ELECTRO", "NONFOOD"]},
+    'CAJAS':        {"tipo": "excluir", "condicion_col": "tipo_venta", "condicion_val": "Venta Ecommerce", "exclusion_col": "nombre_division", "exclusion_grupo": ["ELECTRO", "NONFOOD"]},
     'RECEPCION':    {"tipo": "total_general"},
     'ALMACEN':      {"tipo": "incluir", "grupo": ["ABARROTES", "NONFOOD", "ELECTRO"]},
     'INVENTARIOS':  {"tipo": "incluir", "grupo": ["ABARROTES", "NONFOOD", "ELECTRO"]},
@@ -14,11 +14,8 @@ config_reglas_prod = {
 
 
 def logica_area_puesto (df_origen, configuracion_areas):
-    tipos_venta_validos = ["Venta Ecommerce", "Venta POS", "Last Mile"]
-    df_base = df_origen[df_origen["tipo_venta"].isin(tipos_venta_validos)].copy()
-    df_base["Vta."] = df_base["VtaNeta"].fillna(0)
-    df_base["VtaUn."] = df_base["VtaUnidad"].fillna(0)
-    df_base["VtaPpto."] = df_base["VtaNetaPpto"].fillna(0)
+
+    df_base = df_origen.copy()
 
     lista_resultados = []
 
@@ -45,9 +42,8 @@ def logica_area_puesto (df_origen, configuracion_areas):
 
         df_filtrado["area"] = nombre_area
 
-        df_agrupado = (df_filtrado.groupby(["_Tienda", "Anio", "NroMes", "area"]).agg({"Vta.": "sum", "VtaUn.": "sum", "VtaPpto.": "sum"}).reset_index() )
+        df_agrupado = (df_filtrado.groupby(["tipo_venta", "codigo_local", "periodo", "area"]).agg({"venta": "sum", "ppto": "sum"}).reset_index() )
         lista_resultados.append(df_agrupado)
 
     df_consolidado = pd.concat(lista_resultados, ignore_index=True)
     return df_consolidado
-
