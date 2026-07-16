@@ -521,6 +521,7 @@ def Heatmap_GOR(
     df,
     gor="GOR",
     mes="Mes",
+    mes_prior = "Jul",
     valor="Cump_Meta",
     archivo_html="Heatmap_GOR.html",
     titulo="Cumplimiento vs Meta"
@@ -552,7 +553,7 @@ def Heatmap_GOR(
         .reindex(columns=[m for m in orden if m in dff[mes].unique()])
     )
 
-    tabla = tabla.sort_values(by = "Jun", ascending = False)
+    tabla = tabla.sort_values(by = mes_prior, ascending = False)
 
     def obtener_color(v):
 
@@ -869,3 +870,158 @@ def tiendas_top_bot_gor(df: pd.DataFrame, lista_gor: list, nombre_archivo: str, 
         f.write(html_content)
         
     return f"Archivo generado con éxito en: {os.path.abspath(nombre_archivo)}"
+
+
+
+
+def Barras_GOR(
+    df,
+    gor="GOR",
+    ancho="Cump_Meta2",
+    cump_meta="Cump_Meta",
+    cump_aa="Cump_AA",
+    prod="Prod",
+    titulo="Productividad",
+    archivo_html="Barras_GOR.html"
+):
+
+    dff = df.copy()
+
+    dff = dff.sort_values(ancho, ascending=False)
+
+    minimo = dff[ancho].min()
+    maximo = dff[ancho].max()
+
+    def porcentaje_barra(v):
+
+        if maximo == minimo:
+            return 100
+
+        return 40 + (v - minimo) / (maximo - minimo) * 60
+
+    def color(v):
+
+        if v >= 1:
+            return "#2e7d32"
+
+        elif v >= 0.95:
+            return "#f4b400"
+
+        else:
+            return "#db4437"
+
+    html = f"""
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<style>
+
+body{{
+    font-family:'Segoe UI',sans-serif;
+    margin:20px;
+    background:white;
+}}
+
+h2{{
+    color:#143c8c;
+}}
+
+table{{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0 8px;
+}}
+
+td.nombre{{
+    width:260px;
+    font-size:22px;
+    font-weight:600;
+    color:#555;
+    padding-right:12px;
+    white-space:nowrap;
+}}
+
+td.barra{{
+    width:100%;
+}}
+
+.contenedor{{
+    width:100%;
+    background:white;
+}}
+
+.valor{{
+    height:54px;
+    border-radius:0px;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding-left:18px;
+    font-size:22px;
+    font-weight:700;
+    box-sizing:border-box;
+}}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>{titulo}</h2>
+
+<table>
+"""
+
+    for _, r in dff.iterrows():
+
+        ancho_barra = porcentaje_barra(r[ancho])
+
+        texto = (
+            f"{r[cump_meta]:.1%}"
+            f" | {r[cump_aa]:.1%}"
+            f" | {f'{r[prod]/1000:.1f} K' if r[prod] >= 1000 else f'{r[prod]:.1f}'}"
+        )
+
+        html += f"""
+<tr>
+
+<td class="nombre">
+{r[gor]}
+</td>
+
+<td class="barra">
+
+<div class="contenedor">
+
+<div class="valor"
+style="
+width:{ancho_barra:.1f}%;
+background:{color(r[ancho])};
+">
+{texto}
+</div>
+
+</div>
+
+</td>
+
+</tr>
+"""
+
+    html += """
+</table>
+
+</body>
+
+</html>
+"""
+
+    with open(archivo_html, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"Archivo generado: {archivo_html}")
